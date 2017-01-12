@@ -6,6 +6,6 @@ SET repository.path="https://github.com/jjatem/tutorial-demo-java.git"
 SET version.file="..\..\..\..\pom.xml"
 SET version.xpath="//project/version"
 
-"D:\workspace\screencast\download\RoundhousE\console\rh.exe" /vf=%version.file% /vx=%version.xpath% /c=%connstring% /r=%repository.path% /env=LOCAL /ni /simple
+"D:\workspace\screencast\download\RoundhousE\console\rh.exe" /vf=%version.file% /vx=%version.xpath% /c=%connstring% /r=%repository.path% /env=LOCAL /ni /simple --ni
 
-exit
+
